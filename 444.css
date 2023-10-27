@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   background-image:url('QQ图片20231015120509.jpg');
+   background-repeat: no-repeat;
+}
+div{
+    font-size: 3.5cap;
+    color:white;
+}
+div::before{
+    content: "我";
+    color: white;
+}
+div::after{
+    content: "死猪";
+    color:white;
+}

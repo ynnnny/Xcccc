@@ -1,0 +1,18 @@
+.yuanshen{
+    animation: Mylove 10s infinite;
+}
+@keyframes Mylove{
+    0%{opacity: 0;}
+    80%{opacity: 1.0;}
+    100%{opacity: 0;}
+}
+.xiaozi{
+    animation: mylove 10s infinite;
+    
+}
+@keyframes mylove {
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    80%{opacity: 1.0;}
+    100%{opacity: 0;}
+}

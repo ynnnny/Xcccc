@@ -1,0 +1,47 @@
+form{
+    position:absolute;
+    width: 50%;
+    height: 80%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow:5px 5px 10px #888;
+    overflow-y: scroll;
+    border-radius: 2px;
+    padding: 0px;
+}
+p{
+    margin: 15px;
+}
+h1{
+    text-align: center;
+}
+.name{
+    width: 90%;
+    border:1px solid #e1e0e0;
+    box-shadow:0.5px 0.5px 1px #888 ;
+}
+.content{
+    width: 90%;
+    height: 200px;
+    border:1px solid #e1e0e0;
+    box-shadow:0.5px 0.5px #888 ;
+}
+.footer{
+    cursor:default;
+    background-color: white;
+    position: sticky;
+    bottom: 0px;
+    padding:5px;
+}
+.submit{
+    display: table;
+    position: sticky;
+    left:50%;
+    transform: translateX(-50%);
+    color:white;
+    background-color: rgb(0, 119, 255);
+    border-radius: 1px;
+    border-color: transparent;
+    padding: 2px 50px ;
+}

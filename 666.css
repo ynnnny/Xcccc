@@ -1,0 +1,31 @@
+.grid-container{
+    display:grid;
+    grid: 22.5vh 22.5vh 22.5vh 22.5vh/auto auto auto;
+    grid-gap:2.5vh;
+    color:aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+.item1{
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(60, 204, 180);
+}
+.item2{
+    grid-area: 1/ 2 / span 2 / span 2 ;
+    background-color: rgb(149, 207, 188);
+}
+.item3{
+    grid-area: 2 / 1 / span 3 /span 1;
+    background-color: #c5b251c5;
+}
+.item4{
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-color: #bbe4e7c5;
+}
+.item5{
+    grid-area: 3 / 2 / span 2 / span 1;
+    background-color: rgb(234, 215, 171);
+}
+.item6{
+    background-color: rgb(237, 173, 173);
+}

@@ -1,0 +1,35 @@
+.blue{
+    border:5px dashed blue;
+    width: 200px;
+    height: 200px;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.yellow{
+    width:0px;
+    height:0px;
+    border-top: 200px solid yellow;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.green{
+    width:200px ;
+    height: 100px ;
+    background-color: green;
+    border-radius: 100px 100px 0px 0px;
+}
+.shape{
+    column-count: 3;
+    column-gap: 100px;
+}

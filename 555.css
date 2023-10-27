@@ -1,0 +1,14 @@
+img:hover{
+    border:10px solid rgb(46, 142, 190);
+    
+}
+
+img{
+    border-radius:  100%;
+    border:10px solid transparent;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: border 1s;
+}
