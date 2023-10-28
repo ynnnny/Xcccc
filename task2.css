@@ -7,19 +7,6 @@ input{
 .name{
     padding: 10px;
 }
-input[type=checkbox]{
-    display: none;
-}
-.ho{
-        content: "\2713"; /* Unicode √ 符号 */
-        font-size: 16px;
-        color: green; /* 设置√的颜色 */
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: none; /* 默认隐藏 */
-}
 select{
     margin-left: 20px;
     padding:5px 10px;
