@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+    width: 80%;
+    position: absolute;
+    left:10%;
+    text-align:left;
+}
+caption{
+    font-size: x-large;
+    margin: 10px;
+    transform: translateX(5%);
+    
+}
+th{
+    white-space: nowrap;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(128, 128, 128, 0.151);
+}
+td{
+    white-space: nowrap;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+}
+.area{
+    padding:10px 20px;
+}

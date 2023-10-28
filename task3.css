@@ -1,0 +1,25 @@
+#header{
+    background-color: #cdd3de;
+    width: 100%;
+    clear: both;
+  }
+  #content{
+    float: left;
+    width: 40%;
+    background-color: #f0b7c0;
+    margin-bottom: 10px;
+  }
+  #sidebar{
+    float:right;
+    background-color: #f0d2e6;
+    width: 20%;
+  }
+  #sidebar2{
+    width: 40%;
+    background-color: #c3eedf;
+    float: left;
+  }
+  #footer{
+    background-color: #f7f9c2;
+    clear: both;
+  }

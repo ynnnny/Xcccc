@@ -1,0 +1,39 @@
+p{
+    padding: 8px;
+}
+input{
+    margin-left: 20px;
+}
+.name{
+    padding: 10px;
+}
+input[type=checkbox]{
+    display: none;
+}
+.ho{
+        content: "\2713"; /* Unicode √ 符号 */
+        font-size: 16px;
+        color: green; /* 设置√的颜色 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none; /* 默认隐藏 */
+}
+select{
+    margin-left: 20px;
+    padding:5px 10px;
+    background-color: #e8e5e5e6;
+    border-radius: 5px;
+}
+.submit{
+    position: relative;
+    font-size: larger;
+    font-weight: bold;
+    left: 35px;
+    padding:7px 30px;
+    color: white;
+    letter-spacing: 5px;
+    background-color: rgb(245, 120, 227);
+    border: 1px transparent;
+}
